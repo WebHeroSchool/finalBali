@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('./fonts/museosanscyrl-webfont.woff') format('woff'),
+         url('./fonts/museosanscyrl-webfont.woff2') format('woff2');
+}
+  
+  @font-face {
+    font-family: 'PTSerif';
+    src: url('./fonts/ptf75f-webfont.woff') format('woff'),
+         url('./fonts/ptf75f-webfont.woff2') format('woff2');
+  }
+
+.header__menu, .section__text, .button {
+    font-family: Museo, sans-serif;
+}
+.section__title, .section__subtitle {
+    font-family: PTSerif;
+}
